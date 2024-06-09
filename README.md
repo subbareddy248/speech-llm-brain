@@ -21,6 +21,11 @@ Link: https://gin.g-node.org/denizenslab/narratives_reading_listening_fmri
 - output_dir
 - #num of layers [12, 24]
 
+**How to extract text- and speech-based stimuli representations**
+- Text transcripts are present in the folder: Feature_Extraction/stories_txt
+- Speech (.wav) files are present in the folder: Feature_Extraction/stories_wav
+- Instructions are provided in readme.MD file: Feature_Extraction/readme.MD
+
 *Text-based models*
 ```
 python brain_predictions_subset_mothradio.py 1 bert-subset-moth-radio.npy reading bert-predictions 12
