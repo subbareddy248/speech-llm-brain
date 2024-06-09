@@ -1,4 +1,9 @@
-**How to download 21<sup>st</sup> year dataset**
+**How to extract speech-based model features**
+
+- stimulus_dir: directory consists of .wav files
+- model name: refer json file model name
+- chunk size: stride for window (10, 100 ms)
+- context size: window length (16 secs, 32 secs, 64 secs)
 
 - For Whisper-small model
 ```bash
