@@ -24,7 +24,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     chunk_sz, context_sz = 0.1, 32.0
-    model = 'wav2vec2-base'
+    model = args.featurename
 
     base_features_path = Path(f"encoding-model-scaling-laws/features_cnk{chunk_sz:0.1f}_ctx{context_sz:0.1f}/{model}")
     num_layers = args.numlayers
