@@ -1,0 +1,72 @@
+{
+    "bert-base": {
+        "huggingface_hub": "bert-base-uncased",
+        "model_type": "encoder",
+        "num_layers": 12
+    },
+    "bert-large": {
+        "huggingface_hub": "bert-large-uncased",
+        "model_type": "encoder",
+        "num_layers": 24
+    },
+    "t5-small": {
+        "huggingface_hub": "t5-small",
+        "model_type": "encoder-decoder",
+        "num_layers": 6
+    },
+    "t5-base": {
+        "huggingface_hub": "t5-base",
+        "model_type": "encoder-decoder",
+        "num_layers": 12
+    },
+    "t5-large": {
+        "huggingface_hub": "t5-large",
+        "model_type": "encoder-decoder",
+        "num_layers": 24
+    },
+    "gpt2": {
+        "huggingface_hub": "gpt2",
+        "model_type": "decoder",
+        "num_layers": 12
+    },
+    "gpt2-medium": {
+        "huggingface_hub": "openai-community/gpt2-medium",
+        "model_type": "decoder",
+        "num_layers": 24
+    },
+    "gpt2-large": {
+        "huggingface_hub": "openai-community/gpt2-large",
+        "model_type": "decoder",
+        "num_layers": 36
+    },
+    "bart-base": {
+        "huggingface_hub": "facebook/bart-base",
+        "model_type": "encoder-decoder",
+        "num_layers": 12
+    },
+    "bart-large": {
+        "huggingface_hub": "facebook/bart-large",
+        "model_type": "encoder-decoder",
+        "num_layers": 24
+    },
+    "longformer-base": {
+        "huggingface_hub": "allenai/longformer-base-4096",
+        "model_type": "encoder",
+        "num_layers": 12
+    },
+    "longformer-large": {
+        "huggingface_hub": "allenai/longformer-large-4096",
+        "model_type": "encoder",
+        "num_layers": 24
+    },
+    "llama-2-7b": {
+        "huggingface_hub": "meta-llama/Llama-2-7b-hf",
+        "model_type": "decoder",
+        "num_layers": 32
+    },
+    "llama-2-7b-chat": {
+        "huggingface_hub": "meta-llama/Llama-2-7b-chat-hf",
+        "model_type": "decoder",
+        "num_layers": 32
+    }
+}
