@@ -13,14 +13,23 @@ Link: https://gin.g-node.org/denizenslab/narratives_reading_listening_fmri
 - TR = 2.0045 secs
 - subjects: ['01', '02', '03', '05', '07', '08']
 
-**Predict brain recordings using text-based language model representations (Reading and Listening):**
+**Predict brain recordings using language model representations (Reading and Listening):**
 
 - sub_number [1, 2, 3, 5, 7, 8]
 - stimulus vector [bert, gpt-2, FLAN]
 - modality [reading, listening]
 - output_dir
 - #num of layers [12, 24]
+
+*Text-based models*
 ```
 python brain_predictions_subset_mothradio.py 1 bert-subset-moth-radio.npy reading bert-predictions 12
 python brain_predictions_subset_mothradio.py 1 bert-subset-moth-radio.npy listening bert-predictions 12
 ```
+
+*Speech-based models*
+```
+python brain_predictions_speech.py 1 wav2vec-base reading wav2vec-predictions 12
+python brain_predictions_speech.py 1 wav2vec-base listening wav2vec-predictions 12
+```
+
