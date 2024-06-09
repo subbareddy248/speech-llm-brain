@@ -21,5 +21,5 @@ python extract_speech_features.py --stimulus_dir stories_wav --model wav2vec2-ba
 - output file: file name for storing model representations
 
 ```bash
-python extract_features_words.py --input_file ./stories/ --model bert-base --sequence_length 20 --output_file bert_base20
+python extract_features_words.py --input_file ./stories_txt/ --model bert-base --sequence_length 20 --output_file bert_base20
 ```bash
