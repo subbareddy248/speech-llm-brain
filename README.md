@@ -33,3 +33,12 @@ python brain_predictions_speech.py 1 wav2vec-base reading wav2vec-predictions 12
 python brain_predictions_speech.py 1 wav2vec-base listening wav2vec-predictions 12
 ```
 
+## For Citation of our work
+```
+@inproceedings{oota2024speech,
+  title={Speech language models lack important brain relevant semantics},
+  author={Oota, Subba Reddy and Çelik, Emin and Deniz, Fatma and Toneva, Mariya},
+  booktitle={ACL},
+  year={2024}
+}
+```
