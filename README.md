@@ -12,6 +12,8 @@ Link: https://gin.g-node.org/denizenslab/narratives_reading_listening_fmri
 - 11 stories (10 stories for training + 1 story for testing)
 - TR = 2.0045 secs
 - subjects: ['01', '02', '03', '05', '07', '08']
+- stimuli-folder: https://gin.g-node.org/denizenslab/narratives_reading_listening_fmri/src/master/stimuli
+- mappers: https://gin.g-node.org/denizenslab/narratives_reading_listening_fmri/src/master/mappers
 
 **Predict brain recordings using language model representations (Reading and Listening):**
 
