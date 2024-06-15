@@ -45,8 +45,9 @@ python brain_predictions_speech.py 1 wav2vec-base reading wav2vec-predictions 12
 python brain_predictions_speech.py 1 wav2vec-base listening wav2vec-predictions 12
 ```
 **Build residual-based encoding models**
+
 To build encoding models for residuals, download the following files
-- features_matrix.hdf
+- features_matrix.hdf: https://gin.g-node.org/gallantlab/story_listening/src/master/features 
 - features_trn_NEW.hdf and features_val_NEW.hdf
 - Refer the brain_predictions_residuals.py file consists of low-level feature names
   
