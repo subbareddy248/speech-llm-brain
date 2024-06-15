@@ -44,6 +44,16 @@ python brain_predictions_subset_mothradio.py 1 bert-subset-moth-radio.npy listen
 python brain_predictions_speech.py 1 wav2vec-base reading wav2vec-predictions 12
 python brain_predictions_speech.py 1 wav2vec-base listening wav2vec-predictions 12
 ```
+**Build residual-based encoding models**
+To build encoding models for residuals, download the following files
+- features_matrix.hdf
+- features_trn_NEW.hdf and features_val_NEW.hdf
+- Refer the brain_predictions_residuals.py file consists of low-level feature names
+  
+```
+python brain_predictions_residuals.py 1 bert-subset-moth-radio-downsampled.npy reading bert-predictions 0 articulation
+python brain_predictions_residuals.py 1 bert-subset-moth-radio-downsampled.npy listening bert-predictions 0 articulation
+```
 
 ## For Citation of our work
 ```
