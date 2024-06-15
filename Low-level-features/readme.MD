@@ -1,3 +1,5 @@
+![screenshot](lowlevelfeatures.PNG)
+
 **How to load low-level stimuli features**
 - 'letters', 'numletters', 'numphonemes', 'numwords', 'phonemes', 'word_length_std'
 - low-level textual features
