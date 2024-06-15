@@ -1,7 +1,6 @@
 **How to load low-level stimuli features**
 - 'letters', 'numletters', 'numphonemes', 'numwords', 'phonemes', 'word_length_std'
-
-#low-level textual features
+- low-level textual features
 ```
 def load_low_level_textual_features():
     # 'letters', 'numletters', 'numphonemes', 'numwords', 'phonemes', 'word_length_std'
@@ -10,7 +9,8 @@ def load_low_level_textual_features():
     return base_features_train, base_features_val
 ```
 
-#low-level speech features
+- 'diphone', 'powspec', 'triphone', 'articulation' 
+- low-level speech features
 ```
 def load_low_level_speech_features(lowlevelfeature):
     # 'diphone', 'powspec', 'triphone'
@@ -24,7 +24,8 @@ def load_low_level_speech_features(lowlevelfeature):
     return base_features_train, base_features_val
 ```
 
-#low-level speech features
+- 'motion-energy'
+- low-level speech features
 ```
 def load_low_level_visual_features():
     stimulus_data_file = np.load('m_ll.npz', allow_pickle=True)
