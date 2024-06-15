@@ -1,1 +1,7 @@
-
+nilearn
+nibabel
+voxelwise_tutorials
+pycortex
+h5py
+transformers
+disvoice
