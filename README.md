@@ -35,8 +35,8 @@ Link: https://gin.g-node.org/denizenslab/narratives_reading_listening_fmri
 
 *Text-based models*
 ```
-python brain_predictions_subset_mothradio.py 1 bert-subset-moth-radio.npy reading bert-predictions 12
-python brain_predictions_subset_mothradio.py 1 bert-subset-moth-radio.npy listening bert-predictions 12
+python brain_predictions_text.py 1 bert-subset-moth-radio.npy reading bert-predictions 12
+python brain_predictions_text.py 1 bert-subset-moth-radio.npy listening bert-predictions 12
 ```
 
 *Speech-based models*
